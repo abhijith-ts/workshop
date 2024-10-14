@@ -9,7 +9,7 @@ h1{
     font-family: 'franklin gothic';
     color:chocolate;
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
 }
 body{
     background-color: rgb(134, 216, 216);
