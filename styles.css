@@ -7,12 +7,12 @@ button{
 }
 h1{
     font-family: 'franklin gothic';
-    color:chocolate;
+    color:rgb(202, 201, 200);
     text-align: center;
     /* font-style: italic; */
 }
 body{
-    background-color: rgb(134, 216, 216);
+    background-color: rgb(77, 76, 76);
 }
 .secondDiv{
     background-color: rgb(170, 75, 75);
@@ -27,7 +27,6 @@ button{
     margin-right: 5px;
     margin-bottom: 2px;
     margin-top: 25px;
-    border: 2px solid rgb(212, 91, 5);
     cursor: pointer;
 
 }
