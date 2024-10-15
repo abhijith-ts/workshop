@@ -10,31 +10,14 @@
     <div class="mainDiv">
         <H1>BLEACH</H1>
         <div class="secondDiv">
-            <button onclick="luffy('naruto')">BANKAI</button>
+            <button class="firstbutton" onclick="luffy('naruto')">BANKAI</button>
+        </div>
+        <div class="thirdDiv">
+            <button class="SUBbutton SUBjs" id="subID" onclick="changebutton()">
+                Subscribe
+            </button> 
         </div>
     </div>
-    <script>
-        // let bankai = 'Tensa Zangetsu';
-        // console.log('KILL!!');
-        // console.log(bankai);
-        // let x=5;
-        // console.log(x);
-        // if (x<3){
-        //     console.log('SENBONSAKURA KAGEYOSHI')
-        // }
-        // else{
-        //     console.log('BANKAI')
-        // }
-        let count =0;
-        let count2=2;
-        function luffy(n){
-            count += count2;
-            console.log(`your count is ${count}`);  
-            console.log(n)
-
-        }
-        luffy('ichigo')
-
-    </script>
+    <script src="scripts.js"></script>
 </body>
 </html>
